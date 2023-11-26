@@ -1,0 +1,49 @@
+h2{
+  
+ color:blue;
+  align-items: center;
+  justify-content: center;
+
+}
+img{
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.heart-btn {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  cursor: pointer;
+ 
+}
+
+.heart-btn:before,
+.heart-btn:after {
+  content: '\2665'; /* Unicode character for a heart */
+  font-size: 3em;
+  color: red;
+  position: absolute;
+}
+
+p{
+ 
+  display: inline;
+
+}
